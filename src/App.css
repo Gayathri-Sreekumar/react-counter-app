@@ -1,0 +1,65 @@
+/* Background */
+body {
+  background-color: #e6f0ff; /* soft light blue */
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center container */
+div {
+  text-align: center;
+  margin-top: 80px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+/* Title */
+h1 {
+  color: #003366; /* deep navy blue */
+  margin-bottom: 20px;
+}
+
+/* Counter text */
+p {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #004080; /* medium blue */
+}
+
+/* Buttons */
+button {
+  margin: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.3s;
+}
+
+/* Different button colors */
+button:nth-child(2) {
+  background-color: #0066cc; /* bright blue */
+  color: white;
+}
+
+button:nth-child(3) {
+  background-color: #3399ff; /* lighter blue */
+  color: white;
+}
+
+button:nth-child(4) {
+  background-color: #99ccff; /* very light blue */
+  color: #003366;
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
