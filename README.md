@@ -7,18 +7,18 @@ A modern, responsive counter web application built with React and Vite. It utili
 ## Live Demo & Video Preview
 
 - **Video Walkthrough:** [Click here to watch the full demo](https://your-video-link-here.com)
-- **Live Deployment:** [View the Live App](https://your-live-deployment-link.com) *(optional)*
+- **Live Deployment:** [View the Live App](https://your-live-deployment-link.com) 
 
 ---
  📸 Screenshots
 
 | Initial State | After Increments |
 | :---: | :---: |
-| ![Initial View](./assets/ss1.png) | ![Updated View](./assets/ss2.png) |
+| ![Initial View](./assets/ss1.png) | ![Updated View](./assets/ss2.png) |git add README.md
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Increment & Decrement:** Adjusts the count value in real time.
 - **Reset:** Instantly resets the counter back to zero.
@@ -31,8 +31,8 @@ A modern, responsive counter web application built with React and Vite. It utili
 ## 🛠️ Tech Stack
 
 - **Framework:** React (Vite template)
-- **Language:** JavaScript (ES6+)
-- **Styling:** CSS3 / Inline Styles
+- **Language:** JavaScript 
+- **Styling:** Inline Styles
 - **Storage:** Browser Web Storage API (`localStorage`)
 
 ---
