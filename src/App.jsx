@@ -10,7 +10,8 @@ function App() {
 
   // Save count to localStorage whenever it changes
   useEffect(() => {
-    localStorage.setItem("count", JSON.stringify(count));
+   
+    document.title = `Count: ${count}`;
   }, [count]);
 
   return (
