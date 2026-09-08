@@ -14,7 +14,7 @@ A modern, responsive counter web application built with React and Vite. It utili
 
 | Initial State | After Increments |
 | :---: | :---: |
-| ![Initial View](./assets/screenshot-1.png) | ![Updated View](./assets/screenshot-2.png) |
+| ![Initial View](./assets/ss1.png) | ![Updated View](./assets/ss2.png) |
 
 ---
 
