@@ -4,7 +4,13 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [count, setCount] = useState(() => {
     const savedCount = localStorage.getItem("count");
-    return savedCount !== null ? JSON.parse(savedCount) : 0;
+    if (savedCount !== null) {
+        return JSON.parse(savedCount);
+       }    
+     else {
+        return 0;
+           }
+   
   });
 
   useEffect(() => {
