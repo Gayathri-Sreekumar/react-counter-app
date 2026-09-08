@@ -13,20 +13,22 @@ function App() {
   }, [count]);
 
   return (
-  <div className="card">
-    <h1>Counter App</h1>
-    <p>You clicked {count} times</p>
-    <button className="button-increase" onClick={() => setCount(count + 1)}>
-      Increase
-    </button>
-    <button className="button-decrease" onClick={() => setCount(count - 1)}>
-      Decrease
-    </button>
-    <button className="button-reset" onClick={() => setCount(0)}>
-      Reset
-    </button>
-  </div>
-);
+    <div className="card">
+      <h1>Counter App</h1>
+      <p>You clicked {count} times</p>
+      <div className="button-group">
+        <button className="button-increase" onClick={() => setCount(count + 1)}>
+          Increase
+        </button>
+        <button className="button-decrease" onClick={() => setCount(count - 1)}>
+          Decrease
+        </button>
+        <button className="button-reset" onClick={() => setCount(0)}>
+          Reset
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default App;
