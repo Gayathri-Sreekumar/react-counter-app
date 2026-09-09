@@ -7,7 +7,7 @@ A modern, responsive counter web application built with React and Vite. It utili
 ## Live Demo & Video Preview
 
 - **Video Walkthrough:** [Click here to watch the full demo](https://your-video-link-here.com)
-- **Live Deployment:** [View the Live App](https://your-live-deployment-link.com) 
+
 
 ---
  📸 Screenshots
