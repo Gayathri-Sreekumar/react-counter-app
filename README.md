@@ -10,7 +10,7 @@ A modern, responsive counter web application built with React and Vite. It utili
 
 
 ---
- 📸 Screenshots
+## Screenshots
 
 | Initial State | After Increments |
 | :---: | :---: |
@@ -28,7 +28,7 @@ A modern, responsive counter web application built with React and Vite. It utili
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** React (Vite template)
 - **Language:** JavaScript 
@@ -37,7 +37,7 @@ A modern, responsive counter web application built with React and Vite. It utili
 
 ---
 
-## ⚙️ Installation and Setup Instructions
+## Installation and Setup Instructions
 
 Follow these steps to run the project locally on your machine:
 
